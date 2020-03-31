@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autooglas SYSTEM "autooglas.dtd">
+
+<autoOglas>
+<automobil>
+<proizvođač>
+Renault
+</proizvođač>
+
+<model tip="hečbek">
+Megane
+</model>
+
+<godište>
+2015
+</godište>
+
+<farba tip="akril">
+Siva
+</farba>
+<zapreminaMotora meraZapremine="ccm">750
+</zapreminaMotora>
+<transmisija tip="manuelni">6
+</transmisija>
+<gorivo tng="dizel">5l/100 km/h
+</gorivo>
+<cena valuta="eur">6000
+</cena>
+<kontaktProdavca>
+0654454545
+</kontaktProdavca>
+</automobil>
+
+<automobil>
+<proizvođač>
+Audi
+</proizvođač>
+
+<model tip="limuzina">
+a6
+</model>
+
+<godište>
+2012
+</godište>
+
+<farba tip="akril">
+Bela
+</farba>
+<zapreminaMotora meraZapremine="ccm">750
+</zapreminaMotora>
+<transmisija tip="manuelni">6
+</transmisija>
+<gorivo tng="dizel">8l/100 km/h
+</gorivo>
+<cena valuta="eur">7500
+</cena>
+<kontaktProdavca>
+0645858588
+</kontaktProdavca>
+</automobil>
+
+</autoOglas>

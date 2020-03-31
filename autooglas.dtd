@@ -1,0 +1,17 @@
+<!DOCTYPE autoOglas [
+<!ELEMENT autoOglas (autmobil)+>
+<!ELEMENT automobil (proizvođač,model,godište,farba,
+zapreminaMotora,transmisija,cena,kontaktProdavca)>
+<!ELEMENT proizvođač (#PCDATA)>
+<!ATTLIST proizvođač tip CDATA #IMPLIED>
+<!ELEMENT farba (#PCDATA)>
+<!ATTLIST farba tip  (akril | metalik) "akril"#REQIURED >
+<!ELEMENT transmisija (#PCDATA)>
+<!ATTLIST transmisija tip (auto | manuelni)"auto" #REQIURED >
+<!ELEMENT gorivo (#PCDATA)>
+<!ATTLIST gorivo tng (da | ne) "da" #IMPLIED >
+<!ELEMENT zapreminaMotora (#PCDATA)>
+<!ATTLIST zapreminaMotora meraZapremine  (ccm | l) "ccm">
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena valuta (din | eur)#REQIURED >
+]>
